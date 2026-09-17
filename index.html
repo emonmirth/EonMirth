@@ -4,63 +4,157 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EonMirth — Software that solves real problems.</title>
-  <meta name="description" content="EonMirth is an independent software company building focused products, validating ideas, and learning from real users.">
+  <meta name="description" content="EonMirth is an independent software company building focused, useful products from Bangladesh.">
   <meta name="author" content="EonMirth">
-  <meta name="theme-color" content="#f6f5f1">
+  <meta name="theme-color" content="#f4f3ef">
+  <meta property="og:site_name" content="EonMirth">
   <meta property="og:title" content="EonMirth — Software that solves real problems.">
-  <meta property="og:description" content="An independent software company from Bangladesh building focused, useful products.">
+  <meta property="og:description" content="EonMirth is an independent software company building focused, useful products from Bangladesh.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://eonmirth-web.vercel.app/">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EonMirth — Software that solves real problems.">
+  <meta name="twitter:description" content="An independent software company building focused, useful products from Bangladesh.">
   <link rel="canonical" href="https://eonmirth-web.vercel.app/">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23141413'/%3E%3Cpath d='M18 20h28M18 32h20M18 44h28' stroke='%23f6f5f1' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23131312'/%3E%3Cpath d='M18 20h28M18 32h20M18 44h28' stroke='%23f4f3ef' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/styles.css">
   <script defer src="/script.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="wrap nav-wrap">
-      <a class="brand" href="#top" aria-label="EonMirth home"><span class="brand-mark">E</span><span>EONMIRTH</span></a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle menu</span><i></i><i></i></button>
+      <a class="brand" href="#top" aria-label="EonMirth home"><span class="brand-mark" aria-hidden="true">E</span><span>EONMIRTH</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle navigation</span><i></i><i></i></button>
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#products">Products</a><a href="#principles">Principles</a><a href="#process">How we work</a><a href="#about">About</a>
-        <a class="nav-cta" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Say hello <span>↗</span></a>
+        <a href="#products">Products</a>
+        <a href="#principles">Principles</a>
+        <a href="#process">How we work</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Say hello <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
+
   <main id="main">
-    <section id="top" class="hero wrap">
-      <div class="eyebrow reveal"><span class="eyebrow-dot"></span>Independent software company · Bangladesh</div>
-      <h1 class="reveal delay-1">Software that<br><em>solves real problems.</em></h1>
+    <section id="top" class="hero wrap" aria-labelledby="hero-title">
+      <div class="eyebrow reveal"><span class="eyebrow-dot" aria-hidden="true"></span>Independent software company · Bangladesh</div>
+      <h1 id="hero-title" class="reveal delay-1">Software that<br><em>solves real problems.</em></h1>
       <div class="hero-bottom reveal delay-2">
-        <p class="hero-copy">EonMirth builds focused software products, validates ideas with real people, and keeps learning until the useful thing becomes clear.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#products">Explore products <span>↓</span></a><a class="text-link" href="#process">How we work <span>↗</span></a></div>
-      </div>
-      <div class="hero-note reveal delay-3"><span>01</span><span>Useful first.<br>Always.</span></div>
-    </section>
-
-    <section id="products" class="section products-section">
-      <div class="wrap">
-        <div class="section-intro"><p class="kicker">Selected work</p><h2>Small, focused tools.<br><span>Real intent behind them.</span></h2><p class="intro-copy">Not everything we build is a product yet. We label things honestly so you can see what is ready, what is growing, and what we are still learning from.</p></div>
-        <div class="product-grid">
-          <a class="product-card featured reveal" href="https://github.com/emonmirth/android-flashlight-app" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="status live">Launched product</span><span class="arrow">↗</span></div><div class="product-symbol sun">✦</div><h3>Glim</h3><p>A privacy-first Android flashlight utility. Shake to toggle, smart auto-off, pocket protection, and no ads or tracking.</p><div class="card-foot"><span>Android</span><span>Open source</span></div></a>
-          <a class="product-card reveal delay-1" href="https://github.com/emonmirth/eonload" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="status building">In development</span><span class="arrow">↗</span></div><div class="product-symbol line">↘</div><h3>eonload</h3><p>A Windows-oriented download manager designed to keep downloads safe through interruptions and restarts.</p><div class="card-foot"><span>Desktop</span><span>Electron · React</span></div></a>
-          <a class="product-card reveal delay-2" href="https://github.com/emonmirth/eonsnap" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="status building">In development</span><span class="arrow">↗</span></div><div class="product-symbol frame">□</div><h3>eonsnap</h3><p>A privacy-first browser extension for full-page screenshots, stitching, annotation, and redaction.</p><div class="card-foot"><span>Browser extension</span><span>Manifest V3</span></div></a>
-          <a class="product-card wide reveal" href="https://github.com/emonmirth/polytechnic-erp" target="_blank" rel="noopener noreferrer"><div class="card-top"><span class="status building">Focused project</span><span class="arrow">↗</span></div><div class="product-symbol grid-symbol">+<br>×</div><div class="wide-copy"><h3>Polytechnic ERP</h3><p>An academic result system built for the realities of Bangladesh polytechnics—with BTEB grading logic, bulk mark entry, audit trails, and QR-verified transcripts.</p><div class="card-foot"><span>Education infrastructure</span><span>Laravel · Filament</span></div></div></a>
+        <p class="hero-copy">EonMirth builds focused software products and experiments around real problems. We keep the useful things, improve them, and stay honest about what is still being built.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#products">Explore products <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#process">How we work <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="experiments"><div><p class="kicker">The lab</p><h3>Ideas are allowed<br>to stay unfinished.</h3></div><div><p>Some questions need a prototype before they need a roadmap. YT-Stream is one of those experiments: a high-fidelity sports streaming platform exploring live dashboards, HLS delivery, and resilient infrastructure.</p><a class="text-link" href="https://github.com/emonmirth/YT-Stream" target="_blank" rel="noopener noreferrer">View the experiment <span>↗</span></a></div></div>
+      </div>
+      <div class="hero-note reveal delay-3" aria-label="Company principle"><span>01</span><span>Useful first.<br>Always.</span></div>
+    </section>
+
+    <section id="products" class="section products-section" aria-labelledby="products-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <p class="kicker">Products</p>
+          <h2 id="products-title">Focused software.<br><span>Clear status. No hype.</span></h2>
+          <p class="intro-copy">EonMirth is not a collection of finished products. Some work is public, some is in development, and some is still an experiment. The label tells you which is which.</p>
+        </div>
+
+        <div class="product-grid">
+          <a class="product-card featured reveal" href="https://github.com/emonmirth/android-flashlight-app/releases" target="_blank" rel="noopener noreferrer" aria-label="Glim public Android build — open GitHub Releases">
+            <div class="card-top"><span class="status live">Public Android build</span><span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="product-symbol sun" aria-hidden="true">✦</div>
+            <h3>Glim</h3>
+            <p>A privacy-first Android flashlight utility built around hands-free control: shake to toggle, smart auto-off, pocket protection, and no ads or tracking.</p>
+            <div class="card-foot"><span>Android</span><span>Get latest APK →</span></div>
+          </a>
+
+          <a class="product-card reveal delay-1" href="https://github.com/emonmirth/eonload" target="_blank" rel="noopener noreferrer" aria-label="eonload in development — view project on GitHub">
+            <div class="card-top"><span class="status building">In development</span><span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="product-symbol line" aria-hidden="true">↘</div>
+            <h3>eonload</h3>
+            <p>A Windows-oriented download manager being developed around reliable, resumable downloads and a focused desktop experience.</p>
+            <div class="card-foot"><span>Desktop</span><span>View project →</span></div>
+          </a>
+
+          <a class="product-card reveal delay-2" href="https://github.com/emonmirth/eonsnap" target="_blank" rel="noopener noreferrer" aria-label="eonsnap concept and exploration — view project on GitHub">
+            <div class="card-top"><span class="status exploring">Concept / Exploration</span><span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="product-symbol frame" aria-hidden="true">□</div>
+            <h3>eonsnap</h3>
+            <p>A browser-capture idea exploring a cleaner way to capture and work with long web pages.</p>
+            <div class="card-foot"><span>Browser</span><span>View project →</span></div>
+          </a>
+
+          <a class="product-card wide reveal" href="https://github.com/emonmirth/polytechnic-erp" target="_blank" rel="noopener noreferrer" aria-label="Polytechnic ERP development project — view project on GitHub">
+            <div class="card-top"><span class="status building">Development project</span><span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="product-symbol grid-symbol" aria-hidden="true">+<br>×</div>
+            <div class="wide-copy">
+              <h3>Polytechnic ERP</h3>
+              <p>An academic administration and result-management project shaped around Bangladesh polytechnic workflows, including BTEB grading logic, bulk mark entry, audit trails, and QR-verified transcripts.</p>
+              <div class="card-foot"><span>Education infrastructure</span><span>View project →</span></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="experiments">
+          <div><p class="kicker">The lab</p><h3>Some ideas<br><em>need room to fail.</em></h3></div>
+          <div>
+            <p>YT-Stream is an experimental streaming project exploring live sports dashboards, HLS delivery, and resilient infrastructure. It is shown here as an experiment—not as a launched service.</p>
+            <a class="text-link" href="https://github.com/emonmirth/YT-Stream" target="_blank" rel="noopener noreferrer">View the experiment <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="principles" class="section principles-section"><div class="wrap principle-layout"><div><p class="kicker">A simple filter</p><h2>No user.<br><em>No product.</em></h2></div><div class="principle-list"><div class="principle"><span>01</span><div><h3>Useful first</h3><p>Good software earns its place by making something clearer, faster, or less frustrating.</p></div></div><div class="principle"><span>02</span><div><h3>Build less. Learn more.</h3><p>We would rather test one sharp idea with real people than ship ten ideas into an empty room.</p></div></div><div class="principle"><span>03</span><div><h3>Honesty is a feature</h3><p>Experiments are not products. Early is not finished. We say what a thing is—and what it is not.</p></div></div></div></div></section>
+    <section id="principles" class="section principles-section" aria-labelledby="principles-title">
+      <div class="wrap principle-layout">
+        <div><p class="kicker">A simple filter</p><h2 id="principles-title">No user.<br><em>No product.</em></h2></div>
+        <div class="principle-list">
+          <div class="principle"><span>01</span><div><h3>Useful first</h3><p>Good software earns its place by making something clearer, faster, safer, or less frustrating.</p></div></div>
+          <div class="principle"><span>02</span><div><h3>Build less. Learn more.</h3><p>Test one sharp idea before turning it into a large product. Evidence earns the next step.</p></div></div>
+          <div class="principle"><span>03</span><div><h3>Honesty is a feature</h3><p>Experiments are not products. Early is not finished. We say what a thing is—and what it is not.</p></div></div>
+        </div>
+      </div>
+    </section>
 
-    <section id="process" class="section process-section"><div class="wrap"><div class="section-intro"><p class="kicker">How we work</p><h2>Find the problem<br><span>before building the answer.</span></h2></div><div class="process-grid"><div class="process-item"><span>01</span><h3>Listen</h3><p>Start with a real frustration, not a feature list. Talk to the people living with it.</p></div><div class="process-item"><span>02</span><h3>Validate</h3><p>Test the smallest useful version. Let evidence—not excitement—earn the next step.</p></div><div class="process-item"><span>03</span><h3>Build</h3><p>Make the focused thing dependable, accessible, and pleasant to use.</p></div><div class="process-item"><span>04</span><h3>Keep learning</h3><p>Stay close to users. Improve what matters. Leave what does not behind.</p></div></div></div></section>
+    <section id="process" class="section process-section" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-intro"><p class="kicker">How we work</p><h2 id="process-title">Find the problem<br><span>before building the answer.</span></h2></div>
+        <div class="process-grid">
+          <div class="process-item"><span>01</span><h3>Listen</h3><p>Start with a real frustration, not a feature list.</p></div>
+          <div class="process-item"><span>02</span><h3>Validate</h3><p>Test the smallest useful version.</p></div>
+          <div class="process-item"><span>03</span><h3>Build</h3><p>Make the focused thing dependable, accessible, and pleasant to use.</p></div>
+          <div class="process-item"><span>04</span><h3>Keep learning</h3><p>Improve what matters. Leave what does not behind.</p></div>
+        </div>
+      </div>
+    </section>
 
-    <section id="about" class="section about-section"><div class="wrap about-layout"><div><p class="kicker">About EonMirth</p><h2>From Bangladesh,<br><em>for useful work.</em></h2></div><div class="about-copy"><p>EonMirth is an independent software company founded by Emon Mirth. We are exploring how small teams can make calm, capable software that respects people’s time and privacy.</p><p>The direction is intentionally simple: understand a real problem, build one focused product, and let real users decide whether it deserves to grow.</p><a class="button button-outline" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Visit GitHub <span>↗</span></a></div></div></section>
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="wrap about-layout">
+        <div><p class="kicker">About EonMirth</p><h2 id="about-title">From Bangladesh,<br><em>for useful work.</em></h2></div>
+        <div class="about-copy">
+          <p>EonMirth is an independent software company founded by Emon Mirth.</p>
+          <p>The goal is straightforward: build software that is useful, respectful of privacy, and worth keeping.</p>
+          <p class="about-note">The company is intentionally early. There are public builds, active development projects, and experiments.</p>
+          <a class="button button-outline" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
 
-    <section class="contact-section"><div class="wrap contact-inner"><p class="kicker">Have a real problem?</p><h2>Let’s make<br><em>something useful.</em></h2><a class="contact-link" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Start a conversation on GitHub <span>↗</span></a></div></section>
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <div><p class="kicker">Have a real problem?</p><h2 id="contact-title">Let’s make<br><em>something useful.</em></h2></div>
+        <a class="contact-link" href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">Start a conversation on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-top"><a class="brand" href="#top"><span class="brand-mark">E</span><span>EONMIRTH</span></a><p>Software that solves real problems.</p><div class="footer-links"><a href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/EonMirth" target="_blank" rel="noopener noreferrer">X ↗</a></div></div><div class="wrap footer-bottom"><span>© 2026 EonMirth</span><span>Independent software company · Bangladesh</span></div></footer>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <a class="brand" href="#top" aria-label="Back to EonMirth home"><span class="brand-mark" aria-hidden="true">E</span><span>EONMIRTH</span></a>
+      <p>Software that solves real problems.</p>
+      <div class="footer-links"><a href="https://github.com/emonmirth" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://x.com/EonMirth" target="_blank" rel="noopener noreferrer">X ↗</a></div>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 EonMirth</span><span>Independent software company · Bangladesh</span></div>
+  </footer>
 </body>
 </html>

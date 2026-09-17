@@ -1,20 +1,33 @@
-# Hi there, I'm EonMirth 👋 
+# EonMirth
 
-Founder & Lead Developer at **EonMirth**. Since December 25, 2025, I've been crafting digital tools that focus on privacy, speed, and security.
+EonMirth is an independent software company from Bangladesh building focused products and experiments around real problems.
 
-### 🛠 Tools I'm Building
-- **Ad-Block Lite Pro:** Powerful ad-blocking for a cleaner web.
-- **Midnight Eye Pro:** Protecting eyes with advanced dark mode.
-- **Super Downloader:** Fast and efficient file management.
-- **Eon Speed Pro:** Enhancing browser performance.
+> Software that solves real problems.
 
-### 🚀 Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Deployment:** Firebase
-- **Others:** Chrome Extension API, UI/UX Design
+The website is intentionally lightweight: semantic HTML, CSS, and a small JavaScript layer. It presents the current work with an honest status for each project rather than implying that every experiment is a finished product.
 
-### 📬 Connect with Me
-Website;https://eonmirth-f2eff.web.app/ | YouTube:www.youtube.com/@eonmirth | X (Twitter),https://x.com/EonMirth
+## Current projects
 
----
-*"Building the next generation of web experience."*
+- **Glim** — A privacy-first Android flashlight utility. The current public build is available through the [GitHub Releases page](https://github.com/emonmirth/android-flashlight-app/releases).
+- **eonload** — A Windows-oriented download manager in development, focused on reliable, resumable downloads.
+- **eonsnap** — A browser-capture concept exploring a cleaner way to work with long web pages.
+- **Polytechnic ERP** — A development project shaped around Bangladesh polytechnic administration and result-management workflows.
+- **YT-Stream** — An experimental streaming project exploring live sports dashboards, HLS delivery, and resilient infrastructure.
+
+## Local development
+
+This is a static website with no build step required. Serve the repository with any static web server, for example:
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open `http://localhost:4173` in a browser.
+
+## Deployment
+
+The site is deployed to Vercel from the `main` branch.
+
+## Contact
+
+Visit the [EonMirth GitHub profile](https://github.com/emonmirth) to explore the code or start a conversation.
